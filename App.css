@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: ivory;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.my-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  font-size: 30px;
+  color: green;
+  background-color: ivory;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: ivory;
+}
+
+.container {
+  width: 98vw;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y:auto;
+}
+
+.searchbar {
+  width: min-content;
+  height: min-content;
+
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.map-container {
+  width: 80vw;
+  height: 600px;
+  border: 2px solid green; /* add border property */
+}
+
+.search-button {
+  margin-bottom:10px;
+}
+input[type=text]:focus {
+  outline-color: green;
+}
+.user-reviews {
+  margin-top: 10px;
+  width: 600px;
+  height: max-content;
+  /*background-color: ivory;*/
+
+  overflow-x:break-word;
+
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.review-box {
+  /*https://www.w3schools.com/css/css3_borders.asp*/
+  color: #0073df;
+  margin-bottom:20px;
+  background-color:#b8dcff;
+  border-radius: 25px;
+  border: 2px solid #0073df;
+  width: 100%;
+  height: min-content;
+}
+
+p {
+  text-align: center;
+}
+
+.store-name {
+  font-size: 20px;
+  font-weight:bold;
+  padding:10px;
+  color: green;
+  background-color:#AFE1AF;
+  border-radius: 25px;
+  border: 2px solid green;
+}
+
+.avg-ranking {
+  margin-top: 0px;
+}
+
+/*.left-container {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(122, 87, 33);
+}
+
+.right-container {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(61, 122, 33);
+}*/
+
+input[type=text] {
+
+  padding:10px;
+  color: #0073df;
+  border-radius: 25px;
+  border: 2px solid #0073df;
+
+}
+
+.review-input {
+
+  box-sizing: border-box;
+  height: 150px;
+  resize: none;
+  padding:10px;
+  color: #AFE1AF;
+  border-radius: 25px;
+  border: 2px solid green;
+}
+
+.footer {
+  width: 600px;
+  height: 30px;
+}
+
+button {
+  /*https://www.w3schools.com/css/css3_buttons.asp*/
+  background-color: #AFE1AF;
+  color:green;
+  border-radius: 25px;
+  border: 2px solid green;
+  padding:10px;
+}
+
+.submit-button {
+  margin-top: 20px;
+}
